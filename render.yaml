@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: gz-decompress-api
+    branch: main
+    region: sing
+    env: docker
+    dockerfilePath: Dockerfile.invalid
